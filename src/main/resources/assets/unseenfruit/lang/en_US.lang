@@ -1,0 +1,19 @@
+# ====== 新增内容 ======
+# 种子
+item.unseenfruit.invisible_seed.name=Invisible Seed
+item.unseenfruit.invisible_seed.desc=§7A seed that seems to phase in and out of existence.\n§8Plant on tilled soil\n§oThe beginning of unseen harvest
+
+# 作物方块
+tile.unseenfruit.invisible_crop.name=Invisible Crop
+
+# ====== 成就 ======
+achievement.unseenfruit_plant_seed=Sowing the Unseen
+achievement.unseenfruit_plant_seed.desc=Plant an Invisible Seed
+achievement.unseenfruit_first_harvest=Phantom Harvest
+achievement.unseenfruit_first_harvest.desc=Harvest your first Unseen Fruit from a crop
+achievement.unseenfruit_master_gardener=Master of the Unseen
+achievement.unseenfruit_master_gardener.desc=Harvest 50 Unseen Fruits from crops
+
+# ====== 提示信息 ======
+msg.unseenfruit.crop.not_mature=The crop is not yet ready for harvest
+msg.unseenfruit.crop.harvested=You harvest the unseen fruits

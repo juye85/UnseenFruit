@@ -1,0 +1,15 @@
+[
+  {
+    "modid": "unseenfruit",
+    "name": "无人果",
+    "description": "添加了一个神奇的果子，使用后会获得buff，无法看见其他玩家",
+    "version": "${version}",
+    "mcversion": "1.7.10",
+    "url": "",
+    "authorList": ["你的昵称"],
+    "credits": "感谢所有测试员与灵感提供者。",
+    "logoFile": "assets/textures/logo.png",
+    "useDependencyInformation": "false",
+    "requiredMods": []
+  }
+]
