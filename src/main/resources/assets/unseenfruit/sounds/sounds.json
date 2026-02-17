@@ -1,0 +1,35 @@
+{
+  "unseenfruit.crop.break": {
+    "category": "block",
+    "sounds": [
+      {
+        "name": "dig/grass",
+        "volume": 0.8,
+        "pitch": 1.2
+      }
+    ],
+    "subtitle": "subtitles.unseenfruit.crop.break"
+  },
+  "unseenfruit.seed.plant": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "step/grass",
+        "volume": 0.7,
+        "pitch": 0.9
+      }
+    ],
+    "subtitle": "subtitles.unseenfruit.seed.plant"
+  },
+  "unseenfruit.unseen_fruit_eat": {
+    "category": "player",
+    "sounds": [
+      {
+        "name": "random/eat", // 关键修改：改回原版吃苹果/西瓜音效路径
+        "volume": 0.5,
+        "pitch": 1.0
+      }
+    ],
+    "subtitle": "subtitles.unseenfruit.eat"
+  }
+}
