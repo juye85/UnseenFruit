@@ -1,0 +1,28 @@
+name: Build UnseenFruit Mod
+
+on: [push, workflow_dispatch] # 触发条件：代码推送时 或 手动触发
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout code
+      uses: actions/checkout@v4
+
+    - name: Set up JDK 8
+      uses: actions/setup-java@v4
+      with:
+        java-version: '8'
+        distribution: 'temurin'
+
+    - name: Grant execute permission for gradlew
+      run: chmod +x gradlew
+
+    - name: Build with Gradle
+      run: ./gradlew clean build --stacktrace
+
+    - name: Upload JAR
+      uses: actions/upload-artifact@v4
+      with:
+        name: UnseenFruit-Mod
+        path: build/libs/*.jar
